@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstDay-Using-Tailwind</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style>
+    .font-roboto{
+        font-family:"Roboto";
+    }
+</style>
+</head>
+<body>
+    <header class="bg-orange-100 lg:flex justify-around p-4 lg:p-16">
+
+        <div class="p-3  ">
+            <h1 class="uppercase text-6xl font-roboto mt-6 lg:mt-28"><span class="text-orange-300">Be the penguins</span> <br> of winter</h1>
+            <p class="my-2 w-2/3 p-2">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Laboriosam minima voluptatem tempore dignissimos ullam magni.
+            </p>
+            <button class="bg-red-500 p-3 rounded-lg text-gray-300 font-bold grad bg-linear-to-r from-red-500 to-red-400">Buy now</button>
+        </div>
+
+        <div>
+            <img src="images/model.png" alt="">
+        </div>
+
+    </header>
+
+    <main class="max-w-96 lg:max-w-6xl p-5 lg:mx-96 lg:my-16 ml-14">
+
+        <h1 class="uppercase font-roboto text-4xl ml-5 font-bold mb-10">Woman Jacket</h1>
+
+        <!-- parent-div -->
+        <div class=" lg:flex">
+
+            <!-- child-div -->
+            <div class="pl-5">
+                <img class=" size-96 bg-gray-200 w-80 rounded-xl p-3" src="images/jacket-1.png" alt="">
+                <h2 class="font-bold text-2xl mt-3">Yellow Coat Jacket</h2>
+                <p class="mt-3">
+                    Lorem ipsum dolor sit amet consectetur <br> adipisicing   elit. Nobis, aliquid?
+                </p>
+
+                <!-- sub-child -->
+                <div class="mt-3 w-80 flex justify-between mb-10">
+                    <span class="text-orange-600 font-extrabold text-4xl mt-2">$234</span>
+                    <button class="bg-red-500 p-3 rounded-lg text-gray-300 font-bold grad bg-linear-to-r from-red-500 to-red-400">Buy now</button>
+
+                </div>
+
+            </div>
+
+
+                        <!-- child-div -->
+                        <div class=" pl-5">
+                            <img class=" size-96 bg-gray-200 w-80 rounded-xl p-3" src="images/jacket-1.png" alt="">
+                            <h2 class="font-bold text-2xl mt-3">Yellow Coat Jacket</h2>
+                            <p class="mt-3">
+                                Lorem ipsum dolor sit amet consectetur <br> adipisicing   elit. Nobis, aliquid?
+                            </p>
+            
+                            <!-- sub-child -->
+                            <div class="mt-3 w-80 flex justify-between mb-10">
+                                <span class="text-orange-600 font-extrabold text-4xl mt-2">$234</span>
+                                <button class="bg-red-500 p-3 rounded-lg text-gray-300 font-bold grad bg-linear-to-r from-red-500 to-red-400">Buy now</button>
+            
+                            </div>
+            
+                        </div>
+
+
+
+                                    <!-- child-div -->
+            <div class=" pl-5">
+                <img class=" size-96 bg-gray-200 w-80 rounded-xl p-3" src="images/jacket-1.png" alt="">
+                <h2 class="font-bold text-2xl mt-3">Yellow Coat Jacket</h2>
+                <p class="mt-3">
+                    Lorem ipsum dolor sit amet consectetur <br> adipisicing   elit. Nobis, aliquid?
+                </p>
+
+                <!-- sub-child -->
+                <div class="mt-3 w-80 flex justify-between mb-10">
+                    <span class="text-orange-600 font-extrabold text-4xl mt-2">$234</span>
+                    <button class="bg-red-500 p-3 rounded-lg text-gray-300 font-bold grad bg-linear-to-r from-red-500 to-red-400">Buy now</button>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+    
+</body>
+</html>
